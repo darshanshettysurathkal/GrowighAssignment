@@ -1,0 +1,38 @@
+<!-- activity_upload.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".UploadActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop" />
+
+    <Button
+        android:id="@+id/selectbutton"
+        android:layout_marginTop="50dp"
+        android:layout_gravity ="center"
+        android:backgroundTint="#0077b6"
+        android:layout_width="342dp"
+        android:layout_height="74dp"
+        android:text="Select Image" />
+
+
+
+    <Button
+        android:id="@+id/uploadButton"
+        android:layout_gravity ="center"
+        android:backgroundTint="#0077b6"
+        android:layout_marginTop="50dp"
+        android:layout_width="342dp"
+        android:layout_height="74dp"
+        android:text="Upload" />
+
+</LinearLayout>
